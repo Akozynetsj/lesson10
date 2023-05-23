@@ -1,7 +1,10 @@
-import logging #standartna biblioteka dlyz lgyvannya perebigy prigram
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(massage)s')
-logging.debug('debug')
-logging.info('info')
-logging.error('error')
-logging.warning('warning')
-logging.critical('critical')
+import logging #стандартна бібліотека для логування перебігу програми
+logging.basicConfig(level=logging.DEBUG,
+                    filename= "logs.log",
+                    filemode= 'w',
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+logging.debug("debug")
+logging.info("info")
+logging.error("погано написав програму error")
+logging.warning("warning")
+logging.critical("critical")
