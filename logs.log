@@ -1,9 +1,9 @@
-2023-05-23 19:00:46,086 - DEBUG - debug
-2023-05-23 19:00:46,087 - INFO - info
-2023-05-23 19:00:46,087 - ERROR - погано написав програму error
-2023-05-23 19:00:46,087 - WARNING - warning
-2023-05-23 19:00:46,087 - CRITICAL - critical
-2023-05-23 19:00:46,087 - ERROR - помилоочкаааааааа
+2023-05-23 19:03:08,464 - DEBUG - debug
+2023-05-23 19:03:08,464 - INFO - info
+2023-05-23 19:03:08,464 - ERROR - погано написав програму error
+2023-05-23 19:03:08,464 - WARNING - warning
+2023-05-23 19:03:08,464 - CRITICAL - critical
+2023-05-23 19:03:08,464 - ERROR - помилоочкаааааааа
 Traceback (most recent call last):
   File "C:\Users\student\PycharmProjects\pythonProject3\main.py", line 12, in <module>
     print(10/0)
